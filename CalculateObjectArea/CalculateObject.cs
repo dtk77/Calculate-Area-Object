@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
 
 namespace CalculateObjectArea
 {
@@ -19,7 +18,6 @@ namespace CalculateObjectArea
         ///The sum of the lengths of any two sides of a triangle is greater
         ///than the length of the third side of that triangle
         ///</exception>
-
         public static double CalculateObjectArea(double a, double b, double c)
         {
             HelperForCalculate.CheckingArguments(a, b, c);
@@ -39,7 +37,6 @@ namespace CalculateObjectArea
         ///<exception cref="Argument can be positive.">
         ///Thrown when one parameter or more is not pasitive.
         ///</exception>
-        
         public static double CalculateObjectArea(double radius)
         {
             HelperForCalculate.CheckingArguments(radius);

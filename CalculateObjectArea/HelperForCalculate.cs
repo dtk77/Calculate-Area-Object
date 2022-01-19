@@ -4,7 +4,6 @@ using System.Runtime.CompilerServices;
 [assembly: InternalsVisibleTo("CalculateObjectArea.Tests")]
 namespace CalculateObjectArea
 {
-   
     internal static class HelperForCalculate
     {
         internal static bool CheckingArguments(double a, double b, double c)

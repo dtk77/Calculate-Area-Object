@@ -1,6 +1,5 @@
 using System;
 using Xunit;
-using CalculateObjectArea;
 
 namespace CalculateObjectArea.Tests
 {
@@ -142,7 +141,6 @@ namespace CalculateObjectArea.Tests
             //Assert
             Assert.True(result);
         }
-
 
         [Fact]
         public void CheckIsTriangleWithRightAngle_return_false_if_is_triangle_not_WithRightAngle()
