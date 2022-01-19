@@ -7,6 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateObjectArea", "Calc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateObjectArea.Tests", "CalculateObjectArea.Tests\CalculateObjectArea.Tests.csproj", "{59339CEF-B4C8-43E9-9954-F06994DE012C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task 2", "Task 2", "{BEE54F6B-718F-4E69-8FE4-4BE3FEFB05A4}"
+	ProjectSection(SolutionItems) = preProject
+		SQLtest.txt = SQLtest.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -1,0 +1,5 @@
+SELECT p.Name, s.Name
+FROM Products AS p
+LEFT OUTER JOIN Categories AS c
+ON p.ProductID = c.ProductID;
+GO
